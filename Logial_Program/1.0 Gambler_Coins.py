@@ -8,7 +8,7 @@ def Gambler():
         toss =  np.random.random()
         if toss <.50:
             money-=1
-        if toss <.50:
+        if toss >.50:
             money+=1
         count+=1
     return count
